@@ -1,5 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
     background: url(assets/bg-mobile.jpg) no-repeat top center/cover;
+}
+
+body *{
+    font-family: 'Inter', sans-serif;
+    color: white;
 }
 
 .container {
@@ -7,4 +20,12 @@ body {
     border: 1px solid gray;
     border-radius: 20px;
     margin: auto;
+}
+
+#profile {
+    text-align: center;
+}
+
+#profile img {
+    width: 112px;
 }
